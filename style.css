@@ -1,0 +1,279 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+div{
+    display: block;
+}
+
+.cntr-1{
+    margin: 0% 0%;
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    background-image: url("bg.jpg");
+}
+
+.nav-box{
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    height: auto;
+    margin: 0 45px;
+    padding-top: 0.5rem;
+    width: 100%;
+}
+
+.nav{
+    margin: 0 auto;
+    padding-top: 20px;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+
+
+.netflix{
+    margin-right: 50%;
+    font-weight: 700;
+    word-spacing: 0.5cm;
+}
+
+.logo{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: red;
+    margin: 0;
+}
+
+.wld{
+    height: 13px;
+    margin-bottom: 3px;
+}
+
+.dropdown{
+    margin-right: 1.5rem;
+    margin-left: 15%;
+}
+
+.btn{
+    --bs-btn-border-radius: 0.175rem;
+    --bs-btn-line-height: 1.5;
+}
+
+.btn-secondary
+{
+    --bs-btn-bg: black;
+    --bs-btn-border-color: white;
+}
+
+.btn-dager{
+    --bs-btn-bg: #ff0000;
+}
+
+b, h1, h2, h3, h4, h5, h6, optgroup, strong {
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 500;
+}
+
+.container{
+    margin-top: 13%;
+    margin-bottom: 10%;
+}
+
+.f-text{
+    color: white;
+    text-align: center;
+    padding: 0;
+    font-size: 3.125rem;
+    font-weight: 850;
+}
+
+.f_text{
+    color: white;
+    text-align: center;
+    padding: 0;
+    font-size: 1.625rem;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+
+.ftext{
+    color: white;
+    text-align: center;
+    padding: 0;
+    font-weight: 500;
+    font-size: 1.125rem;
+    padding-bottom: 10px;
+}
+
+.f-email{
+    align-items: flex-start;
+    display: flex;
+}
+
+.email{
+    width: 60%;
+    margin-left: 22%;
+}
+
+.emailbtn{
+    width: 35%;
+    margin-right: 7%;
+    
+}
+
+.btn-primary{
+    --bs-btn-bg: #ff0000;
+    --bs-btn-border-color: #ff0000;
+}
+
+.mb-3{
+    height: 65px;
+}
+
+.form-control{
+    height: 65px;
+}
+
+.line{
+    background-color: rgb(58, 58, 58);
+    height: 9px;
+    display: block;
+    width: 100%;
+}
+
+.ctr{
+    background-color: black;
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    padding: 0 0;
+    float: left;
+}
+
+.ctr-text{
+    display: inline-block;
+    padding: 10%;
+    /*border: 2px solid white;*/
+    width: 55%;
+    float: left;
+    height: 500px;
+}
+
+.ll{
+    text-align: left;
+}
+
+.tv{
+    width: 45%;
+    /*border: 2px solid white;*/
+    display: inline-block;
+    float: left;
+    height: 500px;
+}
+
+.tv-pic{
+    display: inline-block;
+    padding: 17% 10% 20% 0%;
+    max-width: 100%;
+    height: 500px;
+    margin-left: 0%;
+}
+
+.tab{
+    padding: 17% 0% 20% 20%;
+}
+
+
+.comp{
+    display: inline-block;
+    width: 100%;
+}
+
+.ft{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.ques{
+    /*border: 1px solid white;*/
+    margin-top: 13%;
+    margin-left: 10%;
+    display: inline-block;
+}
+
+.qpop{
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pop{
+    /*border: 1px solid greenyellow;*/
+    padding: 2.5%;
+    background-color: rgb(58, 58, 58);
+    /*display: inline-block;*/
+}
+
+.pop:hover{
+    background-color: rgb(151, 144, 144);
+}
+
+.pop-log{
+    /*border: 1px solid white;*/
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.ff{
+    text-align: left;
+}
+
+.f-email-l{
+    margin-left: 0;
+    padding-left: 0;
+    width: 40%;
+    height: 40px;
+}
+
+.footer{
+    /*border: 1px solid greenyellow;*/
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: block;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.footer-links{
+    display: block;
+    /*border: 1px solid orange;*/
+    overflow: auto;
+}
+
+.small{
+    color: rgba(215, 211, 211, 0.877);
+    width: 22%;
+    padding: 1%;
+    padding-left: 0%;
+    /*border: 1px solid red;*/
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+.left{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.ft{
+    color: rgba(215, 211, 211, 0.877);;
+}
